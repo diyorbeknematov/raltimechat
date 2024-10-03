@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  realtimechat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: realtimechat
+    ports:
+      - 3000:3001  
